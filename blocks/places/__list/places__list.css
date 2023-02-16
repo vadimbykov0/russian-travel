@@ -1,0 +1,18 @@
+.places__list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 92px 0 92px 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .places__list {
+            margin: 88px 0 90px 0;
+        }
+}
+@media screen and (max-width: 767px) {
+    .places__list {
+            margin: 64px 0 66px 0;
+        }
+}
