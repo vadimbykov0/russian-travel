@@ -1,22 +1,20 @@
 .intro {
-    display: flex;
-    justify-content: flex-start;
     max-width: 984px;
     margin: 0 auto;
-    padding: 0;
+    padding: 92px 0 92px 0;
 }
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .intro {
-            max-width: 928px;
+            padding: 92px 48px 92px 48px;
         }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .intro {
-            max-width: 720px;
+            padding: 88px 24px 88px 24px;
         }
 }
 @media screen and (max-width: 767px) {
     .intro {
-            max-width: 288px;
+            padding: 64px 16px 64px 16px;
         }
 }

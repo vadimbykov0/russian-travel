@@ -1,6 +1,7 @@
 .intro__list {
     display: flex;
     flex-direction: column;
+    max-width: 690px;
     list-style: none;
     margin: 0;
     padding: 0;
